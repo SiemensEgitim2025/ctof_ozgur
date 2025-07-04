@@ -25,3 +25,14 @@ jobs:
 
         - name: Test
           run: pytest -v
+
+        - name: Ozgur
+          run: |
+            touch osman.txt
+            echo "Ozgur is a great guy" > osman.txt
+ 
+        - name: Archive production artifacts
+          uses: actions/upload-artifact@v4
+          with:
+            name: dist-without-markdown
+            path: osman.txt

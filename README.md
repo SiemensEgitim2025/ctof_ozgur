@@ -1,4 +1,4 @@
-# Celsius-to-Fahrenheit
+# Celsius-to-Fahrenheit Repository
 A simple python script deployed as Flask App on Google App Engine with GitHub CI
 
 How to run

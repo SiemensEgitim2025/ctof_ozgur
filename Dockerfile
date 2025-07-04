@@ -22,4 +22,4 @@ EXPOSE 8080
 # ENV FLASK_APP=main.py
 
 # Run the Flask app when the container starts
-CMD ["python", "main.py"]
+ENTRYPOINT ["python", "main.py"]

@@ -23,3 +23,6 @@ Lint with flake8
 Test with pytest
 
 pytest -v
+
+
+duzeltme1
